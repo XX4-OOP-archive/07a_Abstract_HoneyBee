@@ -19,11 +19,6 @@ public class App {
         output(drone.fly());
         output(worker.fly());
 
-        output("-----aber: -----");
-
-        // Das sollte eigentlich nicht gehen!
-        HoneyBee bee = new HoneyBee();
-        output(bee.doYourJob());
   
     }
 
